@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+
+        <style>
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin-top: 120px;
+                background-color: cornflowerblue;
+            }
+
+            button {
+                padding: 15px,30px;
+                font-size: 25px;
+                cursor: pointer;
+                margin: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+     
+         <!CHANGE SCENARIO HERE-->
+         <h1 id="title">Hostel Management System</h1>
+         <p id=""title">Choose an action.</p>
+         
+         <!--BUTTONS-->
+         <button onclick="viewData()">View</button>
+         <button onclick="saveData()">Save</button>
+         <button onclick="updateData()">Update</button>
+         <button onclick="deleteData()">Delete</button>
+
+         <script>
+
+            function viewData() {
+                document.getElementById("text").innerHTML = " Viewing records..."
+            }
+
+            function viewData() {
+                document.getElementById("text").innerHTML = " Saved Data Successfully."
+            }
+
+            function viewData() {
+                document.getElementById("text").innerHTML = " Updated Data Successfully."
+            }
+
+            function viewData() {
+                document.getElementById("text").innerHTML = " Deleted Data Successfully."
+            }
+
+
+         </script>
+    </body>
+</html>
